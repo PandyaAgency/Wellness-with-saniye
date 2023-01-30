@@ -363,7 +363,16 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                      <form action="https://formsubmit.co/e7096f2ee6455ffbf2e32ded2c835315" method="POST">
+                      <form class="row g-3" action="https://formsubmit.co/e7096f2ee6455ffbf2e32ded2c835315" method="POST">
+                        <!-- HoneyPot -->
+                        <input type="text" name="honey" style="display: none;">
+
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="captcha" value="false">
+
+                        <!-- Contact us Submission confirmation -->
+                        <input type="hidden" name="_next" value="https://pandyaagency.github.io/Wellness-with-saniye/success.html">
+
                         <div class="col-md-6">
                           <fieldset>
                             <label for="comments" class="form-label">First&nbsp;Name</label>
