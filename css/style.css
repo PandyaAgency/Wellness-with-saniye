@@ -337,7 +337,7 @@ ul.cd-hero-slider {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 80px 0px;
-	color: #fff;
+	color: #121212;
 }
 
 #what-we-do .right-image img {
@@ -355,7 +355,7 @@ ul.cd-hero-slider {
 
 #what-we-do p {
 	margin-bottom: 30px;
-	color: #fff;
+	color: #121212;
 }
 
 #what-we-do ul li {
@@ -465,11 +465,11 @@ ul.cd-hero-slider {
 }
 
 #blog .section-heading h4 {
-	color: #fff;
+	color: #121212;
 }
 
 #blog .section-heading .line-dec {
-	background-color: #fff;
+	background-color: #121212;
 }
 
 #blog .pop, .pop2, .pop3 {
@@ -581,11 +581,11 @@ ul.cd-hero-slider {
 /* CONTACT US */
 
 #contact .section-heading h4 {
-	color: #fff;
+	color: #121212;
 }
 
 #contact .section-heading .line-dec {
-	background-color: #fff;
+	background-color: #121212;
 }
 
 #contact .section-heading {
