@@ -943,7 +943,7 @@ body.lb-disable-scrolling {
 }
 
 
-@media (max-width: 1015px){
+@media (max-width: 315px){
 	.slide-caption .content-caption p {
 		padding: 0 10%;
 	}
