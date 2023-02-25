@@ -111,19 +111,19 @@ p {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand .logo{
-	margin-top: 22px;
-	background-image: url(../img/white_logo.png);
+	margin-top: 5px;
+	background-image: url(../img/Logo.png);
 	display: inline-block;
 	width: 125px;
-	height: 32px;
+	height: 125px;
 	background-repeat: no-repeat;
 }
 .header.active .navbar-brand .logo{
-	margin-top: 22px;
-	background-image: url(../img/black_logo.png);
+	margin-top: 5px;
+	background-image: url(../img/Logo.png);
 	display: inline-block;
 	width: 125px;
-	height: 32px;
+	height: 125px;
 	background-repeat: no-repeat;
 }
 #main-nav {
@@ -614,7 +614,7 @@ label {
 	padding-left: 15px;
 	font-size: 13px;
 	color: rgb(255, 255, 255);
-	background-color: rgba(11, 0, 0, 0.1);
+	background-color: rgba(250, 250, 250, 0.1);
 	outline: none;
 	border: none;
 	box-shadow: none;
@@ -915,6 +915,7 @@ body.lb-disable-scrolling {
 
 /* RESPONSIVE */
 
+
 @media (max-width: 767px){
 	#main-nav {
 		border-color: rgba(250, 250, 250, 0.95);
@@ -929,7 +930,7 @@ body.lb-disable-scrolling {
 	}
 	.navbar-nav>li {
 		margin-left: 0px;
-		border-bottom: 1px solid #ffffff;
+		border-bottom: 1px solid #eee;
 	}
 	.navbar-nav>li:last-child {
 		border-bottom: none;
@@ -951,7 +952,7 @@ body.lb-disable-scrolling {
 }
 
 
-@media (max-width: 315px){
+@media (max-width: 1015px){
 	.slide-caption .content-caption p {
 		padding: 0 10%;
 	}
@@ -966,12 +967,21 @@ body.lb-disable-scrolling {
 		height: 80%;
 		overflow-y: scroll;
 	}
+	#blog .pop2 {
+		top: 15%;
+		height: 80%;
+		overflow-y: scroll;
+	}
+	#blog .pop3 {
+		top: 15%;
+		height: 80%;
+		overflow-y: scroll;
+	}
 	.fact-item {
 		margin-bottom: 15px;
 	}
 	.map {
 		margin-bottom: 45px;
-		text-align: left;
 	}
 	footer {
 		text-align: center;

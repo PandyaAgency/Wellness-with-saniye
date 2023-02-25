@@ -130,17 +130,7 @@ jQuery(document).ready(function($){
       return this;
   };
 });
-/*!
- * Lightbox v2.9.0
- * by Lokesh Dhakar
- *
- * More info:
- * http://lokeshdhakar.com/projects/lightbox2/
- *
- * Copyright 2007, 2015 Lokesh Dhakar
- * Released under the MIT license
- * https://github.com/lokesh/lightbox2/blob/master/LICENSE
- */
+
 
 // Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
@@ -640,17 +630,7 @@ jQuery(document).ready(function($){
 }));
 
 
-/*
-* MIXITUP - A CSS3 and JQuery Filter & Sort Plugin
-* Version: 1.5.5
-* License: Creative Commons Attribution-NoDerivs 3.0 Unported - CC BY-ND 3.0
-* http://creativecommons.org/licenses/by-nd/3.0/
-* This software may be used freely on commercial and non-commercial projects with attribution to the author/copyright holder.
-* Author: Patrick Kunka
-* Copyright 2012-2013 Patrick Kunka, Barrel LLC, All Rights Reserved
-* 
-* http://mixitup.io
-*/
+
 
 (function($){
     
@@ -1996,3 +1976,25 @@ jQuery(document).ready(function($){
 
     
 })(jQuery);
+/*
+* MIXITUP - A CSS3 and JQuery Filter & Sort Plugin
+* Version: 1.5.5
+* License: Creative Commons Attribution-NoDerivs 3.0 Unported - CC BY-ND 3.0
+* http://creativecommons.org/licenses/by-nd/3.0/
+* This software may be used freely on commercial and non-commercial projects with attribution to the author/copyright holder.
+* Author: Patrick Kunka
+* Copyright 2012-2013 Patrick Kunka, Barrel LLC, All Rights Reserved
+* 
+* http://mixitup.io
+*/
+/*!
+ * Lightbox v2.9.0
+ * by Lokesh Dhakar
+ *
+ * More info:
+ * http://lokeshdhakar.com/projects/lightbox2/
+ *
+ * Copyright 2007, 2015 Lokesh Dhakar
+ * Released under the MIT license
+ * https://github.com/lokesh/lightbox2/blob/master/LICENSE
+ */
