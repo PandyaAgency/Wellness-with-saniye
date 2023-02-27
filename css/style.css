@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
 * {
     margin: 0;
     padding: 0;
@@ -71,6 +73,52 @@ p {
     text-align: center;
     line-height: 40px;
 }
+
+/*LANGUAGES*/
+
+
+nav li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown-menu li {
+  display: block;
+}
+
+nav .dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+}
+
+nav .dropdown-menu a:hover {
+  background-color: #f4f4f4;
+}
+
+/*LANGUAGES*/
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
