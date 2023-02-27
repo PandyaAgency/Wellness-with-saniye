@@ -84,7 +84,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #797979;
   text-decoration: none;
   padding: 10px;
   display: block;
@@ -159,7 +159,7 @@ nav .dropdown-menu a:hover {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand .logo{
-	margin-top: 5px;
+	margin-top: 10px;
 	background-image: url(../img/Logo.png);
 	display: inline-block;
 	width: 125px;
