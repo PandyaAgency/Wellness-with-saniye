@@ -495,11 +495,11 @@ ul.cd-hero-slider {
 }
 
 #blog .section-heading h4 {
-	color: #121212;
+	color: #ffffff;
 }
 
 #blog .section-heading .line-dec {
-	background-color: #121212;
+	background-color: #ffffff;
 }
 
 #blog .pop, .pop2, .pop3 {
@@ -520,13 +520,13 @@ ul.cd-hero-slider {
 	position: relative;
 }
 
-.blog-item .text-content {
+/* .blog-item .text-content {
 	position: absolute;
 	bottom: 0;
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 100%;
-	padding: 12px 20px;
-}
+	padding: 12px 2px;
+} */
 
 .blog-item .text-content h4 {
 	font-size: 16px;
